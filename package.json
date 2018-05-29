@@ -1,0 +1,33 @@
+{
+  "name": "vvatch",
+  "version": "1.0.0",
+  "description": "Web app for Vtuber watchers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ko1-ota/VVatch.git"
+  },
+  "keywords": [
+    "webApp"
+  ],
+  "author": "git@github.com:ko1-ota",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ko1-ota/VVatch/issues"
+  },
+  "homepage": "https://github.com/ko1-ota/VVatch#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.10.0"
+  },
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  }
+}

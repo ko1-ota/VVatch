@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
-import { Breadcrumb, BreadcrumbItem } from "reactstrap";
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 
 
 export default class HeadBreadcrumb extends Component {

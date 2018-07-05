@@ -25,7 +25,7 @@ export default class Header extends Component {
 
   render() {
     return (
-      <Navbar color="light" light expand="md">
+      <Navbar color="dark" light expand="md">
         <NavbarBrand href="#">VVatch</NavbarBrand>
         <Nav className="ml-auto" navbar>
           <NavItem href="#">

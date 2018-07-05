@@ -5,6 +5,7 @@ import {
   Form, FormGroup, Label, Input, Button,
   ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem
 } from 'reactstrap';
+import MdSearch from 'react-icons/lib/md/search';
 
 
 export default class Header extends Component {
@@ -40,7 +41,7 @@ export default class Header extends Component {
                 <Label for="searchBox" hidden>Search</Label>
                 <Input type="search" name="search" id="searchBox" placeholder="search"></Input>
               </FormGroup>
-              <Button>Search</Button>
+              <Button><MdSearch /></Button>
             </Form>
           </NavItem>
           {/* ユーザードロップダウンメニュー */}

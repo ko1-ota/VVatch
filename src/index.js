@@ -15,7 +15,7 @@ if (headerElement) {
 const mainElement = document.getElementById('main');
 if (mainElement) {
     ReactDOM.render(
-        <div class="container">
+        <div className="container">
             <HeadBreadcrumb />
             <Row>
                 <Col sm="10">
